@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        select,
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="checkbox"] {
+            width: 30px;
+        }
+
+        input[type="submit"] {
+            background-color: #6096ba;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #274c77;
+        }
+    </style>
+</head>
+<body>
+    <form action="calcularPresupuesto.php" method="post">
+        <h1>Budget</h1>
+
+        <label for="modelo">Model:</label>
+        <select name="modelo" required>
+            <option value="Seat">Seat</option>
+            <option value="Renault">Renault</option>
+            <option value="Mercedes">Mercedes</option>
+        </select>
+
+        <label for="color">Color:</label>
+        <select name="color" required>
+            <option value="White">White</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+        </select>
+
+        <label for="tipo">Type:</label>
+        <select name="tipo" required>
+            <option value="Sedán">Sedán</option>
+            <option value="SUV">SUV</option>
+            <option value="Hatchback">Hatchback</option>
+            <option value="4x4">4x4</option>
+        </select>
+
+        <label for="puertas">Doors:</label>
+        <select name="puertas" required>
+            <option value="2">2 doors</option>
+            <option value="4">4 doors</option>
+            <option value="5">5 doors</option>
+        </select>
+
+        <label for="cv">CV:</label>
+        <input type="number" name="cv" required>
+
+        <label for="tipo_motor">Motor Type:</label>
+        <select name="tipo_motor" required>
+            <option value="Diesel">Diesel</option>
+            <option value="Gasoline">Gasoline</option>
+            <option value="Electric">Electric</option>
+            <option value="Hybrid">Hybrid</option>
+        </select>
+
+        <label for="financiamiento">Do you want to finance your purchase?</label>
+        <input type="checkbox" name="financiamiento" value="si">
+
+        <input type="submit" value="Calculate budget">
+    </form>
+</body>
+</html>
+
