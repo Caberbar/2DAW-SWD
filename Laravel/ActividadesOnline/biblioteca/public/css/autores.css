@@ -1,0 +1,142 @@
+/* public/css/index.css */
+
+h2 {
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+
+h2 span {
+    border-bottom: 1px solid black;
+}
+
+.btn-create {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    background-color: #1d3557;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 2rem;
+    transition: all 0.5s ease;
+}
+
+.btn-create:hover {
+    background-color: #457b9d;
+    padding-right: 40px;
+}
+
+.btn-create::before {
+    content: '+';
+    position: absolute;
+    left: 155px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.btn-create2::before {
+    content: '+';
+    position: absolute;
+    left: 140px !important;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+
+.btn-create:hover::before {
+    opacity: 1;
+}
+
+.tabla {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    padding: 10px 0;
+    background-color: #006d77;
+    color: white;
+}
+
+.btn-edit,
+.btn-delete {
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1d3557;
+    color: white;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+
+.btn-edit:hover {
+    background-color: #457b9d;
+    transition: all 0.5s ease;
+}
+
+.btn-delete {
+    border: 0;
+    padding: 9px 11px;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.btn-delete:hover {
+    background-color: #ca2c2c;
+    transition: all 0.5s ease;
+}
+
+/* CREATE */
+/* En tu archivo de estilos CSS, por ejemplo, public/css/style.css */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #457b9d;
+}
+
+/* ERRORES */
+.error{
+    color: red;
+}
