@@ -1,0 +1,26 @@
+/* Estilo de elaboración propia. */
+
+body {
+    font-family: 'San Francisco', 'Segoe UI', 'Open Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 210mm;
+    padding: 0 1em;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  h1, nav, footer, nav {
+    text-align: center;
+  }
+  
+  footer {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
