@@ -2,7 +2,7 @@
 
 Welcome to the repository for the "Server-Side Web Development" module of the Web Application Design Degree. This module is structured into four units, each covering key aspects of web development using PHP.
 
-## [Unit 1](./U1) Web Programming Platforms in Server Environment
+## [Unit 1](./U1) - Web Programming Platforms in Server Environment
 
 ### Contents:
 
@@ -17,7 +17,7 @@ Welcome to the repository for the "Server-Side Web Development" module of the We
 3. **Server-Side Scripting:**
    - Developing server-side scripts in PHP.
 
-## [Unit 2](./U2) Authentication, Cookies, and Sessions
+## [Unit 2](./U2) - Authentication, Cookies, and Sessions
 
 ### Contents:
 
@@ -32,7 +32,7 @@ Welcome to the repository for the "Server-Side Web Development" module of the We
 3. **Security Best Practices:**
    - Implementing security measures for authentication and session management.
 
-## [Unit 3](./U3) Working with Databases in PHP. Laravel
+## [Unit 3](./U3) - Working with Databases in PHP. Laravel
 
 1. **Introduction to Databases:**
    - Overview of database management systems.
@@ -42,7 +42,7 @@ Welcome to the repository for the "Server-Side Web Development" module of the We
    - Working with MySQL database using PHP.
    - Executing SQL queries and handling database interactions.
      
-## [Laravel](./Laravel) Laravel Advanced Concepts
+## [Laravel](./Laravel) - Laravel Advanced Concepts
 
 1. **Routing:**
    - Defining routes for web applications.
